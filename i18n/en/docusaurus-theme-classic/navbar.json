@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Devchat",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Devchat Logo",
+    "description": "The alt text of navbar logo"
+  }
+}
