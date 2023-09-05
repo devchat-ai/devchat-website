@@ -10,10 +10,18 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    permissions:
+      pages: write
+      id-token: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@main
-
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          fail: true
       - name: Use Node.js 17.8.x
         uses: actions/setup-node@main
         with:
