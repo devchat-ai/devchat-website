@@ -31,7 +31,7 @@ Your team can maintain a Git repository to store prompts for `org`, and every te
 
 You can utilize a prompt template by typing a "command" with the corresponding name in the DevChat input. Type `/` followed by the command name.
 
-  <img width="386" alt="image" src="https://github.com/devchat-ai/devchat-vscode/assets/592493/145d94eb-a3e8-42ca-bb88-a462b6070b2f">
+  <img width="386" alt="image" src="https://github.com/devchat-ai/devchat-vscode/assets/592493/145d94eb-a3e8-42ca-bb88-a462b6070b2f" />
 
   The `/`-separated path to a directory corresponds to a `.`-separated command name. For instance, if your prompt is located in the directory `path/to/dir`, you would represent this as the command `/path.to.dir` in the DevChat input. Note that `sys`, `org`, or `usr` do not need to be included in a command name. DevChat will first look up the corresponding path under `usr`, then `org`, and finally `sys`.
 
