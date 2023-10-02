@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-id: prompt-directory
+id: prompt-dir
 ---
 
 # Prompt Directory
