@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-slug: prompt_directory
+sidebar_position: 1
+id: prompt-directory
 ---
 
 # Prompt Directory
