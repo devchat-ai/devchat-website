@@ -1,6 +1,8 @@
 ---
-sidebar_position: 1
 id: prompt-dir
+slug: /extend-devchat-with-custom-prompts
+description: Extend chats with user-defined prompts
+sidebar_position: 1
 ---
 
 # Prompt Directory

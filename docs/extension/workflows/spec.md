@@ -1,21 +1,10 @@
 ---
-id: workflow-specs
+slug: /devchat-workflow-specification
+description: Specification of workflows
 sidebar_position: 2
-description: Extend chats with user-defined operations
 ---
 
-# Workflow Specifications
-
-## Command
-
-The **command** is a consolidated representation of an operation in a chat with AI.
-Such an operation can either provide information to the chat or be triggered by AI to perform tasks beyond mere texting.
-The *unified* command definition applies to LLM calls, scripts, and other user interfaces.
-Consequently, users only need to define a command once in an easy-to-ready YAML file, enabling its use as LLM functions, script execution, and UI integration.
-
-For example, we can create a command `tree` to list directory files.
-
-## Workflow
+# Specification
 
 Interacting with AI involves more than just messaging. Within software development, it facilitates and drives specific workflows. These workflows can range from straightforward tasks like composing a commit message to more complex processes with multiple steps like searching for relevant information and answering a code-related question.
 
