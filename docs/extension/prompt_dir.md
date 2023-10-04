@@ -27,7 +27,7 @@ The `workflows` directory contains three subdirectories, `sys`, `org`, and `usr`
 
 In addition to `sys` and `usr`, the `org` directory is reserved for team-wise conventions. For instance, if your team requires a docstring for every method, you may add this requirement to the default prompt for the `code` command. Consequently, DevChat will adhere to this requirement when generating code.
 
-Your team can maintain a Git repository to store prompts for `org`, and every team member can locally sync `org` with the repository. Those prompts will overwrite those in `sys`, while you can still further customize them for yourself by providing any in `usr`.
+Your team can maintain a Git repository to store prompts for `org`, and every team member can locally sync `org` with the repository. The team-wise prompts will overwrite those in `sys`, while you can still further customize them for yourself by providing any in `usr`.
 
 ## Command Name
 
