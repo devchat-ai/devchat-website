@@ -33,8 +33,8 @@ parameters:
 
 By convention, this file should be named `command.yml` and placed in the [prompt directory](/extend-devchat-with-custom-prompts).
 Assuming it is located in `~/.chat/workflows/usr/tree/`, a user can easily invoke the command with the DevChat UI by entering or choosing `/tree`.
-Beyond UI input, the command can also be used to construct a workflow in DevChat.
-For instance, a workflow step may go as `/tree --paths="." --level=3`.
+Besides UI, the command can also be used to construct a workflow in DevChat.
+For instance, one workflow step may go as `/tree --paths="." --level=3`.
 Additionally, DevChat boasts a feature that translates the YAML file into the [GPT function](https://openai.com/blog/function-calling-and-other-api-updates) format, which can then be interpreted and executed by a LLM as needed.
 
 The conventions for command paths and names adhere to the [Prompt Directory specifications](/extend-devchat-with-custom-prompts#path).
