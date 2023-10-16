@@ -3,3 +3,4 @@ position: 2
 link:
   type: generated-index
   slug: design
+  description: When selecting a dev tool that might be with you for the long haul, it's important to consider both the features and the underlying design logic.
