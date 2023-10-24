@@ -20,6 +20,9 @@ The `workflows` directory contains three subdirectories, `sys`, `org`, and `usr`
   ├── sys
   │   └── commit_message
   │       └── prompt.txt
+  ├── org
+  │   └── commit_message
+  │       └── prompt.txt
   └── usr
       └── commit_message
           └── prompt.txt
