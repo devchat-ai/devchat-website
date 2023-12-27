@@ -33,7 +33,11 @@ const config = {
     locales: ['en', 'zh'],
     localeConfigs: {
       en: {
-        htmlLang: 'en-GB',
+        htmlLang: 'en-US',
+      },
+      zh: {
+        label: '中文',
+        htmlLang: 'zh-CN',
       }
     },
   },

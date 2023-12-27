@@ -2,5 +2,33 @@
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
+  },
+  "sidebar.docSidebar.category.Design": {
+    "message": "设计",
+    "description": "The label for category Design in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Design.link.generated-index.description": {
+    "message": "当我们选择长期相伴的开发工具，既要考虑工具的具体功能，也要考虑它底层的设计原则。",
+    "description": "The generated-index page description for category Design in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Extension": {
+    "message": "扩展",
+    "description": "The label for category Extension in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Extension.link.generated-index.description": {
+    "message": "DevChat支持对提示词和工作流的个性化定制和扩展。",
+    "description": "The generated-index page description for category Extension in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Workflows": {
+    "message": "智能工作流",
+    "description": "The label for category Workflows in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Workflows.link.generated-index.description": {
+    "message": "通过自定义智能工作流扩展对话。",
+    "description": "The generated-index page description for category Workflows in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Quick Start": {
+    "message": "快速开始指南",
+    "description": "The label for category Quick Start in sidebar docSidebar"
   }
 }
