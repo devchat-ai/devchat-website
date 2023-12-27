@@ -9,7 +9,7 @@ DevChat is an *open-source platform* that empowers developers to leverage AI for
 
 ## Why DevChat
 
-While there are many AI coding tools available, we developed DevChat based on our practical insights gained from generating tens of thousands of lines of code. DevChat makes the following two distinctive design choices.
+While there are many AI coding tools available, we developed DevChat based on our practical insights gained from generating hundreds of thousands of lines of code. DevChat makes the following two distinctive design choices.
 
 ### Manual control of prompt context
 
@@ -22,13 +22,16 @@ Additionally, the context might include a working similar test case to help the 
 
 We find that most other "intelligent" or "automatic" tools tend to over-guess what a user needs to put into a prompt, with the intention of reducing the user's workload.
 This typically results in more noise than LLMs can efficiently handle.
-DevChat gives the control back to human for true productivity and provides user-friendly methods to streamline context selection.
-In practice, humans remain the pilots, and AI can be truly effective only when provided with a clear request and the appropriate context.
+The unstable effectiveness of those tools is a major reason why many developers are skeptical about AI's value in coding.
+DevChat gives the control back to developers and streamlines the context building proces.
+In practice, human developers remain the pilots, and AI can be truly effective only when provided with a clear request and appropriate context.
 
 ### Simple mechanism to extend
 
 **You don't have to learn a new framework of a specific programming language to extend AI for your need.**
 Prompts should be visible and easily editable to users instead of being hidden in a complex framework.
+Adjustments to system-default prompts are common.
+Take Python that has PEP
 
 Bring your own prompts, and build a library of what works for you and your team. Easily integrate your own prompt templates into DevChat, avoiding significant engineering effort or a steep learning curve. You don't need a complex framework to make AI work for you. All it takes is a standard editor operating on your filesystem.
 
