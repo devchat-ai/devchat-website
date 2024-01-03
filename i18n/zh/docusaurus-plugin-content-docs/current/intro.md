@@ -1,8 +1,6 @@
 ---
-sidebar_position: 1
 slug: /
+sidebar_position: 1
 ---
 
-# Tutorial Intro
-
-中文
+# 简介

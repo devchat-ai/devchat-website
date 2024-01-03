@@ -1,8 +1,8 @@
 ---
 id: inter-commmand-communication
-slug: /devchat-inter-commmand-communication
+slug: /inter-commmand-communication
 description: Inter-command communication in DevChat
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Inter-Command Communication
