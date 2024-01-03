@@ -15,7 +15,7 @@ ChatMark enhances standard markdown by introducing GUI elements within code bloc
 
 The checkbox widget in ChatMark is structured as follows, residing inside a ChatMark block.
 
-`> [status](ID) Title`
+`> [](ID) Title` or `> [x](ID) Title`
 
 - The status `[ ]` or `[x]` indicates if the checkbox is unchecked or checked, respectively.
 - The ID in parentheses is a unique identifier for referencing the item.
@@ -46,8 +46,9 @@ file3: checked
 
 The radio button widget in ChatMark is structured as follows, residing inside a ChatMark block.
 
-`> - (ID) Title`
+`> - (ID) Title` or `> x (ID) Title`
 
+- The status `x` or `-` indicates if the item is selected or not, respectively.
 - The ID in parentheses is a unique identifier for referencing the item.
 - The text following the ID describes the item.
 - The reply should be a single ID referencing the selected item.
@@ -58,7 +59,7 @@ Example:
 ```chatmark
 How would you like to make the change?
 > - (insert) Insert the new code.
-> - (new) Put the code in a new file.
+> x (new) Put the code in a new file.
 > - (replace) Replace the current code.
 ```
 ````
@@ -110,6 +111,18 @@ ID: |
 Note that, in a reply, the YAML block scalar (`|`) is primarily used for multi-line strings where line breaks need to be preserved. It is not necessary for single-line texts. For example, `ID: "fix: prevent racing of requests"` is a valid reply. Quotation marks can be used around single-line strings but are not mandatory unless the string contains special characters that might be misinterpreted, such as a colon.
 
 ## Forms
+
+````
+```charmark buttons=Commit,Cancel
+
+```
+````
+
+````
+```yaml
+form: Commit
+```
+````
 
 ## Buttons
 
