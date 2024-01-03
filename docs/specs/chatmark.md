@@ -11,25 +11,6 @@ ChatMark enhances standard markdown by introducing GUI elements within code bloc
 
 ## Widgets
 
-### Button
-
-The button widget in ChatMark is structured as follows, residing inside a ChatMark block.
-
-`> (ID) Title`
-- The ID in parentheses is a unique identifier for referencing the button.
-- The text following the ID shows on the button.
-- The reply should be a single ID referencing the clicked button.
-
-Example:
-
-````
-```chatmark
-Would you like to pay $0.02 for this LLM query?
-> (Confirm) Yes, go ahead!
-> (Cancel) No, let's skip this.
-```
-````
-
 ### Checkbox
 
 The checkbox widget in ChatMark is structured as follows, residing inside a ChatMark block.
@@ -123,5 +104,28 @@ ID: |
     
     Reviewed-by: Z
     Refs: #123
+```
+````
+
+Note that, in a reply, the YAML block scalar (`|`) is primarily used for multi-line strings where line breaks need to be preserved. It is not necessary for single-line texts. For example, `ID: "fix: prevent racing of requests"` is a valid reply. Quotation marks can be used around single-line strings but are not mandatory unless the string contains special characters that might be misinterpreted, such as a colon.
+
+## Forms
+
+## Buttons
+
+The button widget in ChatMark is structured as follows, residing inside a ChatMark block.
+
+`> (ID) Title`
+- The ID in parentheses is a unique identifier for referencing the button.
+- The text following the ID shows on the button.
+- The reply should be a single ID referencing the clicked button.
+
+Example:
+
+````
+```chatmark
+Would you like to pay $0.02 for this LLM query?
+> (Confirm) Yes, go ahead!
+> (Cancel) No, let's skip this.
 ```
 ````
