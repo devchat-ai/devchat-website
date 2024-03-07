@@ -1,8 +1,7 @@
 ---
-id: chatmark
-slug: /chatmark-markdown-spec
+slug: /chatmark-markdown
 description: the DevChat Flavored Markdown
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 # ChatMark: the DevChat Flavored Markdown
