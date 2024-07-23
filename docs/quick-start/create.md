@@ -1,6 +1,6 @@
 ---
 title: Create Intelligent Scripts
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Create Intelligent Scripts
