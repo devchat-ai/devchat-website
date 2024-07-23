@@ -1,7 +1,7 @@
 ---
 slug: /chatmark-markdown
 description: the DevChat Flavored Markdown
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # ChatMark: the DevChat Flavored Markdown
