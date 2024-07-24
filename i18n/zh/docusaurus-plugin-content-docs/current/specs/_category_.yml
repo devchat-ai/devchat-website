@@ -1,0 +1,6 @@
+label: Specifications
+position: 3
+link:
+  type: generated-index
+  slug: specs
+  description: DevChat can be extended with custom prompts and workflows.
