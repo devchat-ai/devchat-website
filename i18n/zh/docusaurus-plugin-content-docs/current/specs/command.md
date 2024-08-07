@@ -88,7 +88,7 @@ workflow_python:
   dependencies: dep.txt
 ```
 
-> **拓展：** [无法访问公网时，需手动配置workflow_python](user_settings.md#external_workflow_python)
+> **拓展：** [无法访问公网时，需手动配置workflow_python](../specs/environment.md#external_workflow_python)
 
 ## 内置变量
 
