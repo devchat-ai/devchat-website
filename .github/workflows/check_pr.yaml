@@ -19,7 +19,7 @@ jobs:
       - name: Use Node.js 17.8.x
         uses: actions/setup-node@main
         with:
-          node-version: 17.8.x
+          node-version: 20.6.x
       - name: Build devchat website
         run: |
           npm install
