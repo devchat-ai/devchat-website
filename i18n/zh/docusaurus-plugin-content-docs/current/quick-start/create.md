@@ -46,7 +46,7 @@ steps:
 
 打开DevChat聊天栏，输入`/my_hello`并发送。
 
-![image](./images/quickstart-my_hello.jpeg)
+![image](/img/quick-start-my_hello.jpeg)
 
 
 ## 总结
