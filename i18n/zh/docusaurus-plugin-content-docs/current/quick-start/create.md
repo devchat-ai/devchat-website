@@ -26,7 +26,7 @@ namespaces:
   - demo
 ```
 
-了解更多：[命名空间](./namespace.md)
+了解更多：[命名空间](../specs/namespace.md)
 
 
 ### 2. 在`demo`中创建`my_hello`的工作流
@@ -40,7 +40,7 @@ steps:
   - run: echo "Have a nice day!"
 ```
 
-了解更多：[工作流定义文件规范](./command_spec.md)
+了解更多：[工作流定义文件规范](../specs/command.md)
 
 ### 3. 运行`my_hello`工作流
 
@@ -57,7 +57,7 @@ steps:
 
 # 工作流开发指南
 
-在[快速入门](./quickstart.md)中，我们创建了一个简单的DevChat Workflow。本文将展示更丰富的 DevChat Workflow 特性。
+在[快速入门](../quick-start/create.md)中，我们创建了一个简单的DevChat Workflow。本文将展示更丰富的 DevChat Workflow 特性。
 
 
 ## 多层级 Workflow
@@ -111,8 +111,8 @@ TODO: 引用example
 ### Python 封装
 
 为了方便开发者在 Python 脚本中使用 ChatMark，我们提供了 ChatMark Python 封装。
-- [ChatMark Python](../lib/chatmark/README.md)
-- [使用示例](../lib/chatmark/chatmark_example/main.py)
+- [ChatMark Python](https://github.com/devchat-ai/workflows/tree/scripts/lib/chatmark)
+- [使用示例](https://github.com/devchat-ai/workflows/tree/scripts/lib/chatmark/chatmark_example)
 
 
 ## IDE Service Protocol：在工作流中与编辑器交互的协议
@@ -126,4 +126,4 @@ TODO: 有些新接口没写到文档里，待补充
 
 为了方便开发者在 Python 脚本中使用 IDE Service，我们提供了IDE Service Python 封装。
 
-- [IDE Service Python](../lib/ide_service/service.py)
+- [IDE Service Python](https://github.com/devchat-ai/workflows/blob/scripts/lib/ide_service/service.py)
