@@ -16,10 +16,10 @@ jobs:
         uses: lycheeverse/lychee-action@v1.8.0
         with:
           fail: true
-      - name: Use Node.js 17.8.x
+      - name: Use Node.js 20.6.x
         uses: actions/setup-node@main
         with:
-          node-version: 17.8.x
+          node-version: 20.6.x
       - name: Build devchat website
         run: |
           npm install
