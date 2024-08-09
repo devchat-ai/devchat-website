@@ -105,7 +105,7 @@ TODO: 引用example
 ## ChatMark: 在消息中进行用户交互的标记语法
 
 语法介绍：
-- [chatmark](https://github.com/devchat-ai/devchat-docs/blob/main/docs/specs/chatmark.md)
+- [chatmark](https://github.com/devchat-ai/devchat-website/blob/main/docs/specs/chatmark.md)
 
 
 ### Python 封装
