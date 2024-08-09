@@ -30,5 +30,17 @@
   "sidebar.docSidebar.category.Quick Start": {
     "message": "快速开始指南",
     "description": "The label for category Quick Start in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Specifications": {
+    "message": "规格说明",
+    "description": "The label for category Specifications in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Specifications.link.generated-index.description": {
+    "message": "DevChat can be extended with custom prompts and workflows.",
+    "description": "The generated-index page description for category Specifications in sidebar docSidebar"
+  },
+  "sidebar.docSidebar.category.Featured Scripts": {
+    "message": "精选脚本功能",
+    "description": "The label for category Featured Scripts in sidebar docSidebar"
   }
 }
